@@ -1,16 +1,54 @@
-# React + Vite
+# 🎲 Tenzies Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and classic dice game built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+[**👉 Play the Game Live Here**](https://klinti13.github.io/Tenzies/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 How to Play
+The goal is to get all ten dice to show the same number.
 
-## React Compiler
+1.  **Roll:** Click the "Roll" button to spin the dice.
+2.  **Freeze:** Click on the dice you want to keep (freeze) at their current value.
+3.  **Repeat:** Keep rolling the remaining dice until all of them match.
+4.  **Win:** When all dice are the same, the game ends and you get a Confetti celebration! 🎉
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
+* **State Management:** Utilizes `useState` to track dice values and game status.
+* **Side Effects:** Uses `useEffect` to check for winning conditions (all dice held + same value).
+* **Accessibility:** Implements automatic focus on the "New Game" button using `useRef` for better keyboard navigation.
+* **Confetti:** Visual celebration effect when the player wins.
+* **Responsive:** optimized for both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+* React.js (Hooks: `useState`, `useEffect`, `useRef`)
+* Vite (for fast development and building)
+* CSS3 (custom styling)
+* JavaScript (ES6+)
+* React Confetti Library
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 How to Run Locally
+
+If you want to clone and run this project on your computer:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Klinti13/Tenzies.git](https://github.com/Klinti13/Tenzies.git)
+    ```
+
+2.  **Navigate to the project folder:**
+    ```bash
+    cd Tenzies
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Start the local server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+*Created by [Klinti13](https://github.com/Klinti13)*
