@@ -1,6 +1,6 @@
 # 🎲 Tenzies Game
 
-A fun and classic dice game built with **React** and **Vite**.
+A fun and classic game built with **React** and **Vite**.
 
 [**👉 Play the Game Live Here**](https://klinti13.github.io/Tenzies/)
 
